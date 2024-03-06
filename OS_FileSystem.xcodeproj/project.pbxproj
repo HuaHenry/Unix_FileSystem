@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8F5C87A2B98206E00259D57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8F5C8792B98206E00259D57 /* main.cpp */; };
+		E823A9612B982FF400A89C71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E823A95F2B982FF400A89C71 /* main.cpp */; };
+		E823A9632B9830FA00A89C71 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E823A9622B9830FA00A89C71 /* Block.cpp */; };
+		E823A9662B98313000A89C71 /* Directory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E823A9642B98313000A89C71 /* Directory.cpp */; };
+		E823A9692B98315700A89C71 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E823A9672B98315700A89C71 /* File.cpp */; };
+		E823A96C2B98317400A89C71 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E823A96A2B98317400A89C71 /* User.cpp */; };
+		E823A9702B98321A00A89C71 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E823A96F2B98321A00A89C71 /* tools.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E823A95F2B982FF400A89C71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = OS_FileSystem/main.cpp; sourceTree = "<group>"; };
+		E823A9622B9830FA00A89C71 /* Block.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
+		E823A9642B98313000A89C71 /* Directory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Directory.cpp; sourceTree = "<group>"; };
+		E823A9672B98315700A89C71 /* File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		E823A96A2B98317400A89C71 /* User.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		E823A96D2B9831A200A89C71 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		E823A96E2B9831CF00A89C71 /* head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = head.h; sourceTree = "<group>"; };
+		E823A96F2B98321A00A89C71 /* tools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
 		E8F5C8762B98206E00259D57 /* OS_FileSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OS_FileSystem; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8F5C8792B98206E00259D57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +53,14 @@
 		E8F5C86D2B98206E00259D57 = {
 			isa = PBXGroup;
 			children = (
-				E8F5C8782B98206E00259D57 /* OS_FileSystem */,
+				E823A96F2B98321A00A89C71 /* tools.cpp */,
+				E823A96E2B9831CF00A89C71 /* head.h */,
+				E823A96D2B9831A200A89C71 /* error.h */,
+				E823A96A2B98317400A89C71 /* User.cpp */,
+				E823A9672B98315700A89C71 /* File.cpp */,
+				E823A9642B98313000A89C71 /* Directory.cpp */,
+				E823A9622B9830FA00A89C71 /* Block.cpp */,
+				E823A95F2B982FF400A89C71 /* main.cpp */,
 				E8F5C8772B98206E00259D57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +71,6 @@
 				E8F5C8762B98206E00259D57 /* OS_FileSystem */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E8F5C8782B98206E00259D57 /* OS_FileSystem */ = {
-			isa = PBXGroup;
-			children = (
-				E8F5C8792B98206E00259D57 /* main.cpp */,
-			);
-			path = OS_FileSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +130,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8F5C87A2B98206E00259D57 /* main.cpp in Sources */,
+				E823A9612B982FF400A89C71 /* main.cpp in Sources */,
+				E823A9692B98315700A89C71 /* File.cpp in Sources */,
+				E823A9662B98313000A89C71 /* Directory.cpp in Sources */,
+				E823A9632B9830FA00A89C71 /* Block.cpp in Sources */,
+				E823A96C2B98317400A89C71 /* User.cpp in Sources */,
+				E823A9702B98321A00A89C71 /* tools.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
