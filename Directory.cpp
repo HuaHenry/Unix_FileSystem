@@ -260,11 +260,12 @@ void Open_Directory(const char* directory_name)
             if (strcmp(to_dir, directory.d_filename[i]) == 0) {
                 Inode to_inode;
                 Read_Inode(to_inode, directory.d_inodenumber[i]);
-
+                
                 if (to_inode.i_mode == Inode::IDIRECTORY) {
                     find = true;
                     strcat(reached_path, to_dir);
                     strcat(reached_path, "/");
+//                    cout<<reached_path<<endl;
 
                     //更改directory
                     fd.open(DISK_NAME, ios::out | ios::in | ios::binary);

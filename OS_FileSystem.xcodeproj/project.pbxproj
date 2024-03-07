@@ -36,6 +36,7 @@
 		E823A96D2B9831A200A89C71 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
 		E823A96E2B9831CF00A89C71 /* head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = head.h; sourceTree = "<group>"; };
 		E823A96F2B98321A00A89C71 /* tools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		E823A9712B9950A100A89C71 /* mydisk */ = {isa = PBXFileReference; lastKnownFileType = text; path = mydisk; sourceTree = "<group>"; };
 		E8F5C8762B98206E00259D57 /* OS_FileSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OS_FileSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,6 +54,7 @@
 		E8F5C86D2B98206E00259D57 = {
 			isa = PBXGroup;
 			children = (
+				E823A9712B9950A100A89C71 /* mydisk */,
 				E823A96F2B98321A00A89C71 /* tools.cpp */,
 				E823A96E2B9831CF00A89C71 /* head.h */,
 				E823A96D2B9831A200A89C71 /* error.h */,
@@ -100,6 +102,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					E8F5C8752B98206E00259D57 = {

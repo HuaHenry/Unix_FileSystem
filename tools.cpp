@@ -18,7 +18,7 @@ void Init()
 
     //如果没有打开文件则输出提示信息并throw错误
     if (!fd.is_open()) {
-        cout << "无法打开文件卷myDisk.img" << endl;
+        cout << "无法打开文件卷myDisk." << endl;
         throw(ERROR_CANT_OPEN_FILE);
     }
 
